@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div>
-      hola
+      John alexander muñoz yepez
     </div>
   )
 }
