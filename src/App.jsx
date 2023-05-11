@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       John alexander muñoz yepez
-      pagina
+      pagina d epractica
     </div>
   )
 }
