@@ -1,11 +1,13 @@
 import './App.css'
-
+import Animacion from './Animacion/Animacion.jsx'
 function App() {
 
   return (
     <div>
-      John alexander muñoz yepez
-      pagina d epractica
+      <h1>
+        Hola soy Alexnader muñoz
+      </h1>
+      <Animacion/>
     </div>
   )
 }
