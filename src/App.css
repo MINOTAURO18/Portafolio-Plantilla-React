@@ -1,10 +1,12 @@
-body{
-  background: linear-gradient(90deg,rgb(196, 159, 222),rgb(226, 212, 236));
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-  color: rgb(94, 2, 160);
-  font-size: 3.5rem;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 900;
+body{
+  background: linear-gradient(90deg,rgb(196, 159, 222),rgb(226, 212, 236));
+   font-family:  Courier New,Courier,monospace;
 }
+
+

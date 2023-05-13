@@ -1,0 +1,56 @@
+.SobreMi{
+    width: 85%;
+    height: 92vh;
+    margin: auto;
+    padding: 10vh 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fill,minmax(25rem, 1fr));
+}
+
+.SobreMi .intro{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.SobreMi .intro .img {
+    margin: auto;
+    background: rgb(223, 3, 204);
+    width: 250px;
+    height: 250px;
+    border: 2px solid turquoise;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.SobreMi .intro p{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.SobreMi .intro .adornos div{
+  width: 10px;
+  height: 10px;
+  background-color:rgb(223, 3, 204) ;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.SobreMi .intro .adornos{
+    display: flex;
+    gap: 5px;
+}
+
+.SobreMi .edu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
