@@ -3,6 +3,9 @@
 }
 
 .header{
+    background: linear-gradient(90deg,rgb(196, 159, 222),rgb(226, 212, 236));
+    position: sticky;
+    top: 0;
     z-index: 9;
     width: 85%;
     height: 8vh;

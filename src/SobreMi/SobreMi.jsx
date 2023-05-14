@@ -19,22 +19,22 @@ const SobreMi = () => {
 
                 <div>
                     <h3>Udemy</h3>
-                    <span>React, Node.js, Javascript</span>
+                    <h4>React, Node.js, Javascript</h4>
                 </div>
 
                 <div>
                 <h3>Soy Henry</h3>
-                    <span>React, Node.js, Javascript</span>
+                    <h4>React, Node.js, Javascript</h4>
                 </div>
 
                 <div>
                 <h3>Frecodecamp</h3>
-                    <span>React, Node.js, Javascript</span>
+                    <h4>React, Node.js, Javascript</h4>
                 </div>
 
                 <div>
                 <h3>Universidad</h3>
-                    <span>React, Node.js, Javascript</span>
+                    <h4>React, Node.js, Javascript</h4>
                 </div>
 
             </div>
