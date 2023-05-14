@@ -1,6 +1,9 @@
 import styles from '../Menu/Menu.module.css';
 import { Link } from 'react-router-dom';
 import Redes from './Redes';
+import home from '../assets/Inicio.svg';
+import proyec from '../assets/proyectos.svg';
+import sobre from '../assets/sobremi.svg';
 
 
 const Menu = () => {
@@ -20,18 +23,18 @@ const Menu = () => {
 
             <nav className={styles.navMobile}>
                  
-              <Link>
-                <img src="" alt="" />
+              <Link to='/Portafolio-Plantilla-React/'>
+                <img width='40px' src={home} alt="" />
               </Link>
 
 
-              <Link>
-              <img src="" alt="" />
+              <Link to='/Portafolio-Plantilla-React/proyectos'>
+              <img width='40px' src={proyec} alt="" />
               </Link>
 
 
-              <Link>
-               <img src="" alt="" />
+              <Link to='/Portafolio-Plantilla-React/sobremi'>
+               <img width='40px' src={sobre} alt="" />
               </Link>
 
             </nav>

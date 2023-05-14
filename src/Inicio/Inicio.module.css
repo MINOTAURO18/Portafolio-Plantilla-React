@@ -15,7 +15,8 @@ h1, h2 {
 }
 
 .full{
-  width: 420px;
+    z-index: 9;
+  max-width: 420px;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -50,7 +51,7 @@ h1, h2 {
 }
 
 .botones{
-    width: 420px;
+    max-width: 420px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -102,4 +103,21 @@ h1, h2 {
     -moz-transition:all 0.2s ease-in-out;
     -ms-transition:all 0.2s ease-in-out;
     -o-transition:all 0.2s ease-in-out;
+}
+
+@media (max-width: 900px){
+    .Inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full{
+        height: auto;
+    }
+    .botones{
+        display: none;
+    }
+
 }

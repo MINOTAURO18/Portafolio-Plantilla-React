@@ -79,3 +79,9 @@
 .cards .card .github img{
     filter: invert(38%) sepia(74%) saturate(5469%) hue-rotate(225deg) brightness(100%) contrast(96%);
 }
+
+@media (max-width: 900px){
+    .Proyectos{
+        padding-bottom:16vh ;
+    }
+}

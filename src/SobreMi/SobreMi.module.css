@@ -1,4 +1,5 @@
 .SobreMi{
+    padding-bottom: 8vh ;
     width: 85%;
     height: 92vh;
     margin: auto;
@@ -6,16 +7,21 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    grid-template-columns: repeat(auto-fill,minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fill,minmax(22rem, 1fr));
 }
 
 .SobreMi .intro{
+    z-index: 9;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .SobreMi .intro .img {
     margin: auto;
+}
+
+.SobreMi .intro .img img {
     width: 250px;
     height: 250px;
     border: 4px solid rgb(223, 3, 204);
@@ -48,6 +54,7 @@
 }
 
 .SobreMi .edu{
+    z-index: 9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,4 +77,24 @@
 .SobreMi .edu div:hover{
     background:linear-gradient(180deg, #3f5efb, #fc466b) ;
     color: antiquewhite;
+}
+
+@media (max-width: 900px){
+
+    
+    .SobreMi .intro .img img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .SobreMi .intro{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SobreMi .intro p{
+        width: 290px;
+    }
+
+    
 }

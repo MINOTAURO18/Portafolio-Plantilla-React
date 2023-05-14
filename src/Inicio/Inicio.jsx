@@ -10,7 +10,7 @@ const Inicio = () => {
                 <div></div>
                 <div></div>
                 <div></div>
-                </div>
+                </div> 
             </article>
 
             <div className={styles.botones}>

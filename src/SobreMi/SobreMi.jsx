@@ -1,10 +1,15 @@
 import styles from '../SobreMi/SobreMi.module.css'
+import Animacion from '../Animacion/Animacion.jsx' 
+import perfil from '../assets/perfil.svg'
 
 const SobreMi = () => {
     return (
         <section className={styles.SobreMi}>
+            <Animacion/>
            <article className={styles.intro}>
-                <div className={styles.img}></div>
+                <div className={styles.img}>
+                    <img src={perfil} alt="" />
+                </div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quis vitae eaque enim deserunt soluta animi culpa officiis veniam qui. Possimus et voluptatibus soluta quia rerum cumque ea numquam odio</p>
                 <div className={styles.adornos}>
                 <div></div>
