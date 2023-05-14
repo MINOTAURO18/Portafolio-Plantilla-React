@@ -81,7 +81,10 @@
 
 @media (max-width: 900px){
 
-    
+    .SobreMi{
+        height: auto;
+        padding-bottom:16vh ;
+    }
     .SobreMi .intro .img img{
         width: 200px;
         height: 200px;
