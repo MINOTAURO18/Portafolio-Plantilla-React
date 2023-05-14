@@ -5,7 +5,7 @@ const SobreMi = () => {
         <section className={styles.SobreMi}>
            <article className={styles.intro}>
                 <div className={styles.img}></div>
-                <p>Hola ¿Que tal?, Me llamo John Alexander Muñoz Yepez de Medellin-Colombia. Amante de la tecnología y los deportes, de este ultimo es de donde adquirí mi disciplina y constancia, ya que creo, que los deportes son la manera mas eficaz de desarrollar estas cualidades.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quis vitae eaque enim deserunt soluta animi culpa officiis veniam qui. Possimus et voluptatibus soluta quia rerum cumque ea numquam odio</p>
                 <div className={styles.adornos}>
                 <div></div>
                 <div></div>

@@ -74,7 +74,7 @@ h1, h2 {
 }
 
 .botones div a {
-   color: #fc466b;
+    color: #fc466b;
     width: 140px;
     height: 45px;
     text-decoration: none;
@@ -88,9 +88,18 @@ h1, h2 {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
 }
 
 .botones div a:hover{
+    transition:all 0.2s ease-in-out;
     background:linear-gradient(180deg, #3f5efb, #fc466b) ;
     color: white;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
 }

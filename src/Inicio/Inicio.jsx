@@ -15,7 +15,7 @@ const Inicio = () => {
 
             <div className={styles.botones}>
 
-                <h2>John Alexander Muñoz</h2>
+                <h2>Ingresa Tu Nombre</h2>
                 <div>
                    <a href="#">GMAIL</a> 
                    <a href="#">CV</a> 

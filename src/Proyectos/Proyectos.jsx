@@ -33,6 +33,31 @@ const Proyectos = () => {
         tecno:[html,css,js],
         url:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
       },
+
+      {
+        image:[img2],
+        name:'Proyecto 3',
+        descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
+        tecno:[html,css,js],
+        url:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
+      },
+
+      {
+        image:[img4],
+        name:'Proyecto 3',
+        descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
+        tecno:[html,css,js],
+        url:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
+      },
+
+
+      {
+        image:[img3],
+        name:'Proyecto 3',
+        descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
+        tecno:[html,css,js],
+        url:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
+      },
     ]
 
     return (
