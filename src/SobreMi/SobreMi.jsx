@@ -23,22 +23,22 @@ const SobreMi = () => {
                 <h2>Educación</h2>
 
                 <div>
-                    <h3>Udemy</h3>
+                    <h3>Educación 1</h3>
                     <h4>React, Node.js, Javascript</h4>
                 </div>
 
                 <div>
-                <h3>Soy Henry</h3>
+                <h3>Educación 2</h3>
                     <h4>React, Node.js, Javascript</h4>
                 </div>
 
                 <div>
-                <h3>Frecodecamp</h3>
+                <h3>Educación 3</h3>
                     <h4>React, Node.js, Javascript</h4>
                 </div>
 
                 <div>
-                <h3>Universidad</h3>
+                <h3>Educación 4</h3>
                     <h4>React, Node.js, Javascript</h4>
                 </div>
 
